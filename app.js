@@ -106,7 +106,7 @@ const server = http.createServer(async (req, res) => {
             await sendPushNotification(
               token,
               '최적 경로 알림',
-              `가장 가까운 흡연구역은 ${closestZone.name}입니다. 최적 경로 데이터를 확인하세요.`
+              `가장 가까운 흡연구역은 ${closestZone.name}입니다. 최적 경로를 확인하세요.`
             );
 
             res.writeHead(200, { 'Content-Type': 'application/json' });
