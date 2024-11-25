@@ -1,4 +1,4 @@
-import { auth } from '../../src/firebaseConfig'; // Firebase 설정 파일 가져오기
+import { auth } from '..firebaseConfig'; // Firebase 설정 파일 가져오기
 import { signInWithEmailAndPassword } from 'firebase/auth'; // Firebase 로그인 함수 가져오기
 
 // PIN 변환 함수: 4자리 PIN을 6자리 이상으로 변환

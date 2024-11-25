@@ -1,4 +1,4 @@
-import { auth, db } from '../../src/firebaseConfig'; // Firebase 설정 가져오기
+import { auth, db } from '..firebaseConfig'; // Firebase 설정 가져오기
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { collection, addDoc } from 'firebase/firestore';
 
